@@ -15,7 +15,7 @@
 	</style>
 </head>
 <body>
-<div class="message hello">
+<div class="message">
 
 	<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 		<p><?php the_title(); ?></p>
