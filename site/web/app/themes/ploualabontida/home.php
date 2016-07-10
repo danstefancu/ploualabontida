@@ -13,6 +13,10 @@ get_header();
 
 </div>
 
+<div>
+	<a href="<?php echo home_url(); ?>">Vremea la Bonțida (prima pagină)</a>
+</div>
+
 <?php
 
 get_footer();

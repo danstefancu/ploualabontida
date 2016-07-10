@@ -22,7 +22,7 @@ $last_article_query = new WP_Query(
 
 </div>
 <div>
-	<a href="<?php echo get_post_type_archive_link( 'post' ); ?>">Prognoze vechi</a>
+	<a href="<?php echo home_url(); ?>">Vremea la Bonțida</a> | <a href="<?php echo get_post_type_archive_link( 'post' ); ?>">Prognoze vechi</a>
 </div>
 
 <?php
