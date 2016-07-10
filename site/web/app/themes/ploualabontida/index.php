@@ -12,6 +12,10 @@ get_header();
 	<?php endwhile; endif; ?>
 
 </div>
+<div>
+	<a href="<?php echo get_post_type_archive_link( 'post' ); ?>">Alte mesaje</a> | <a href="<?php echo home_url(); ?>">Vremea la Bontida (sper)</a>
+</div>
+
 <?php
 
 get_footer();
