@@ -6,6 +6,7 @@ get_header();
 <div class="message">
 
 	<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+		<p><?php the_time('j F Y'); ?></p>
 		<p><?php the_title(); ?></p>
 		<?php $post = get_post(); ?>
 		<h1><?php echo $post->post_content; ?></h1>
@@ -13,7 +14,7 @@ get_header();
 
 </div>
 <div>
-	<a href="<?php echo get_post_type_archive_link( 'post' ); ?>">Istorie</a> | <a href="<?php echo home_url(); ?>">Vremea la Bontida</a>
+	<a href="<?php echo get_post_type_archive_link( 'post' ); ?>">Istoric</a> | <a href="<?php echo home_url(); ?>">Vremea la Bontida</a>
 </div>
 
 <?php
