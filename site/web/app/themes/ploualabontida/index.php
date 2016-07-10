@@ -13,7 +13,7 @@ get_header();
 
 </div>
 <div>
-	<a href="<?php echo get_post_type_archive_link( 'post' ); ?>">Alte mesaje</a> | <a href="<?php echo home_url(); ?>">Vremea la Bontida/a>
+	<a href="<?php echo get_post_type_archive_link( 'post' ); ?>">Istorie</a> | <a href="<?php echo home_url(); ?>">Vremea la Bontida</a>
 </div>
 
 <?php
