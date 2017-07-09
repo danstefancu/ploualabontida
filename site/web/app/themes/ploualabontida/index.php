@@ -13,7 +13,7 @@ get_header();
 
 </div>
 <div>
-	<a href="<?php echo home_url(); ?>">Vremea la Bonțida</a> | <a href="<?php echo get_post_type_archive_link( 'post' ); ?>">Istoric</a>
+	<a href="<?php echo home_url(); ?>">Vremea la Bonțida (prima pagină)</a>
 </div>
 
 <?php
